@@ -3,6 +3,7 @@ FROM armv7/armhf-ubuntu_core
 
 # enable mirro
 RUN sed -i 's/ports.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
+    sed -i 's/yakkety/xenial/g' /etc/apt/sources/list \
     && cat /etc/apt/sources.list
 
 # update apt

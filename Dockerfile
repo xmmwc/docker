@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu_core
+FROM arm32v7/ubuntu
 
 
 # enable mirro
